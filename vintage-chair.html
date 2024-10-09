@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>
-            craigslist: dallas jobs, apartments, for sale, services, community,
-            and events
-        </title>
-        <link href="css\home.css" type="text/css" rel="stylesheet" />
-        <script src="app.js" type="text/javascript"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vintage Chair Details</title>
+        <link rel="stylesheet" href="css/vintage-chair.css" />
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <section class="header">
@@ -14,7 +16,7 @@
                 <a>
                     <img
                         class="logo"
-                        src="images\craigslist_logo.png"
+                        src="images/craigslist_logo.png"
                         alt="Craigslist Logo"
                     />
                 </a>
@@ -47,81 +49,29 @@
                 </div>
             </div>
         </section>
-        <section class="hero">
-            <div class="search-box">
-                <div class="hero-text">Find your next new thing</div>
-                <div class="search-input-container">
-                    <input type="text" placeholder="Search..." />
-                    <button type="submit">Search</button>
-                </div>
-            </div>
-            <img
-                class="heroImg"
-                src="images/heroBannerImg.png"
-                alt="Cartoon Street Image"
-            />
-        </section>
-        <section class="location">
-            <img
-                src="https://via.placeholder.com/150"
-                alt="City Image"
-                class="location-image"
-            />
-            <div class="location-text">
-                <span class="location-name">Dallas, TX</span>
-                <a href="#" class="change-location">Change Location</a>
-            </div>
-        </section>
-        <section class="categories">
-            <div class="grid-container">
-                <div class="grid-item">
+        <div class="container mt-5 mb-5">
+            <h1 class="text-center">Vintage Chair</h1>
+            <div class="row">
+                <div class="col-md-6">
                     <img
-                        src="https://via.placeholder.com/150"
-                        alt="Community"
+                        src="https://via.placeholder.com/300"
+                        class="img-fluid"
+                        alt="Vintage Chair"
                     />
-                    <p>Community</p>
                 </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Forums" />
-                    <p>Forums</p>
-                </div>
-                <div class="grid-item">
-                    <a href="for_sale.html">
-                        <img
-                            src="https://via.placeholder.com/150"
-                            alt="For Sale"
-                        />
-                        <p>For Sale</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Gigs" />
-                    <p>Gigs</p>
-                </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Housing" />
-                    <p>Housing</p>
-                </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Jobs" />
-                    <p>Jobs</p>
-                </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Resumes" />
-                    <p>Resumes</p>
-                </div>
-                <div class="grid-item">
-                    <img src="https://via.placeholder.com/150" alt="Services" />
-                    <p>Services</p>
+                <div class="col-md-6">
+                    <h3>Price: $250</h3>
+                    <p>Location: Dallas, TX</p>
+                    <p>Posted: 2 days ago</p>
+                    <p>
+                        This vintage chair is in excellent condition and perfect
+                        for adding a touch of elegance to your home.
+                    </p>
+                    <button class="btn btn-primary">Contact Seller</button>
                 </div>
             </div>
-        </section>
-        <section class="featured">
-            <h2>Featured Listings</h2>
-            <div id="card-container"></div>
+        </div>
 
-            <script src="js/homeCards.js"></script>
-        </section>
         <footer>
             <div class="footer-grid">
                 <div class="footer-column logo-column">
@@ -187,5 +137,9 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
