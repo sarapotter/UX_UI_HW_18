@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Navigation styles */
 .top_nav {
     overflow: hidden;
@@ -159,4 +160,12 @@ body {
     width: 80px;
     height: auto;
     margin-right: 10px;
+}
+
+.logo-column img {
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
 }
