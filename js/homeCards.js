@@ -1,42 +1,42 @@
 document.addEventListener("DOMContentLoaded", function () {
     const items = [
         {
-            name: "Vintage Chair",
+            name: "Chinese Fingertrap",
             price: "$250",
             posted: "2 days ago",
             location: "Dallas, TX",
             images: ["https://via.placeholder.com/300"],
         },
         {
-            name: "Old Guitar",
+            name: "Guitar",
             price: "$120",
             posted: "5 days ago",
             location: "Garland, TX",
             images: ["https://via.placeholder.com/300"],
         },
         {
-            name: "Mountain Bike",
+            name: "3D Printer",
             price: "$600",
             posted: "1 week ago",
             location: "Richardson, TX",
             images: ["https://via.placeholder.com/300"],
         },
         {
-            name: "MacBook Pro",
+            name: "MacBook Air",
             price: "$900",
             posted: "3 days ago",
             location: "Irving, TX",
             images: ["https://via.placeholder.com/300"],
         },
         {
-            name: "Dining Table",
+            name: "Dining Room Chairs",
             price: "$450",
             posted: "2 weeks ago",
             location: "Mesquite, TX",
             images: ["https://via.placeholder.com/300"],
         },
         {
-            name: "Leather Jacket",
+            name: "Old Jeans",
             price: "$100",
             posted: "4 days ago",
             location: "Cedar Hill, TX",

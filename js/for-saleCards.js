@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             posted: "2 days ago",
             location: "Dallas, TX",
             images: ["https://via.placeholder.com/300"],
-            detailsPage: "vintage-chair.html", // Reference to the details page
+            detailsPage: "vintage-chair.html",
         },
         {
             name: "Old Guitar",
@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = 1; i <= totalPages; i++) {
             const pageButton = document.createElement("button");
             pageButton.textContent = i;
-            pageButton.classList.add(currentPage === i ? "active" : "");
+            pageButton.disabled = i === currentPage;
             pageButton.addEventListener("click", () => {
                 currentPage = i;
                 renderCards();
